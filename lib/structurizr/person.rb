@@ -3,11 +3,11 @@
 require 'structurizr/metal'
 
 module Structurizr
-  Container = Metal::Model::Container
+  Person = Metal::Model::Person
 
-  class Container
+  class Person
     def inspect
-      %{<Container: "#{name}">}
+      %{<Person: "#{name}">}
     end
   end
 end
